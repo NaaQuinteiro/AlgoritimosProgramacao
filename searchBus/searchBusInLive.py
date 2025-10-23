@@ -3,7 +3,7 @@ from folium import Map, Marker
 import requests
 from dotenv import load_dotenv
 
-load_dotenv("C:/Users/thayna_quinteiro/Desktop/AlgoritimosProgramação/searchBus/.env")
+load_dotenv("C:/Users/thayna_quinteiro/Desktop/AlgoritimosProgramação/.env")
 
 s = requests.Session()
 x = s.post(
